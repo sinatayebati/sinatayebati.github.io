@@ -15,7 +15,7 @@ const Social = () => {
                 <i class="uil uil-twitter-alt"></i>
             </a>
         </div>
-    );
-};
+    )
+}
 
 export default Social
