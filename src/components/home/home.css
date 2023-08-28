@@ -102,3 +102,53 @@
         transform: translateY(3.75rem);
     }
 }
+
+.home__scroll-name {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
+    color: var(--title-color);
+}
+
+/*===== BREAKPOINTS =====*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .home__content {
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home__hand {
+        width: 26px;
+        height: 26px;
+    }
+
+    .home__subtitle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home__subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  
+  }
+  
+  @media screen and (max-width: 576px) {
+  
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
