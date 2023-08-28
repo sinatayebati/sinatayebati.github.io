@@ -22,6 +22,7 @@
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
+  --medium-font-size: 2.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
@@ -172,7 +173,14 @@ img {
 
 /*===== BREAKPOINTS =====*/
 /* For large devices */
+@media screen and (max-width: 1200px) {
+  .section {
+    padding: 2rem 0 4rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
+
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -191,15 +199,23 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
-
+  .section {
+    padding: 0rem 0 4rem;
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem;
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
