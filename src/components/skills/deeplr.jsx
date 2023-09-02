@@ -26,23 +26,27 @@ const Deeplr = () => {
                         </div>
                     </div>
 
-                    <div className="skills__data">
-                        <i class='bx bx-badge-check'></i>
+                </div>
 
-                        <div>
-                            <h3 className="skills__name">TensorFlow</h3>
-                            <span className="skills__level">Intermediate</span>
-                        </div>
+                <div className="skills__group">
+
+                <div className="skills__data">
+                    <i class='bx bx-badge-check'></i>
+
+                    <div>
+                        <h3 className="skills__name">TensorFlow</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
+                </div>
 
-                    <div className="skills__data">
-                        <i class='bx bx-badge-check'></i>
+                <div className="skills__data">
+                    <i class='bx bx-badge-check'></i>
 
-                        <div>
-                            <h3 className="skills__name">Scikit-Learn</h3>
-                            <span className="skills__level">Advanced</span>
-                        </div>
+                    <div>
+                        <h3 className="skills__name">Scikit-Learn</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
+                </div>
 
                 </div>
 
