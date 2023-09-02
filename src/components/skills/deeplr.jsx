@@ -6,6 +6,7 @@ const Deeplr = () => {
             <h3 className="skills__title">Deep Learning</h3>
 
             <div className="skills__box">
+                
                 <div className="skills__group">
 
                     <div className="skills__data">

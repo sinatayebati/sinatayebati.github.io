@@ -27,7 +27,7 @@ const Database = () => {
 
                         <div>
                             <h3 className="skills__name">MySQL</h3>
-                            <span className="skills__level">Beginner</span>
+                            <span className="skills__level">Basic</span>
                         </div>
                     </div>
 
