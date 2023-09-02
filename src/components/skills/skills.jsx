@@ -3,6 +3,7 @@ import "./skills.css";
 import Frontend from "./frontend";
 import Backend from "./backend";
 import Deeplr from "./deeplr";
+import Database from "./database";
 
 const Skills = () => {
     return (
@@ -14,6 +15,7 @@ const Skills = () => {
                 <Deeplr />
                 <Frontend />
                 <Backend />
+                <Database />
             </div>
         </section>
     )
