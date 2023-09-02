@@ -11,8 +11,8 @@ const Deeplr = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">PyTorch</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
                     </div>
 
@@ -20,8 +20,8 @@ const Deeplr = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">Pyro</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
                     </div>
 
@@ -29,17 +29,18 @@ const Deeplr = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">TensorFlow</h3>
+                        <span className="skills__level">Intermediate</span>
                     </div>
 
                     <div className="skills__data">
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name"></h3>
-                        <span className="skills__level"></span>
+                        <h3 className="skills__name">Scikit-Learn</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
+
                     </div>
                     </div>
                 </div>
