@@ -17,9 +17,28 @@ const Freelance = () => {
 
                     <div className="freelance__modal">
                         <div className="freelance__modal-content">
-                            <i className="uil uil-times services__modal-close"></i>
+                            <i className="uil uil-times freelance__modal-close"></i>
 
-                            <h3 className="services__modal-title"></h3>
+                            <h3 className="freelance__modal-title"></h3>
+                            <p className="freelance__modal-description">Freelance services and collaborations with more than 2 years of experiennce.</p>
+
+                            <ul className="freelance__modal-freelance grid">
+
+                                <li className="freelance__modal-freelance">
+                                    <i className="uil uil-check-circle freelance__modal-icon"></i>
+                                    <p className="freelance__modal-info">
+                                        I develop deep learning and AI models.
+                                    </p>
+                                </li>
+
+                                <li className="freelance__modal-freelance">
+                                    <i className="uil uil-check-circle freelance__modal-icon"></i>
+                                    <p className="freelance__modal-info">
+                                        I develop deep learning and AI models.
+                                    </p>
+                                </li>
+
+                            </ul>
                         </div>
                     </div>
                 </div>
