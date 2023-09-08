@@ -11,7 +11,7 @@ const Freelance = () => {
                 <div className="freelance__content">
                     <div>
                         <i className="uil uil freelance__icon"></i>
-                        <h3 className="freelance__title">ML <br /> Developer</h3>
+                        <h3 className="freelance__title">AI <br /> Developer</h3>
                     </div>
 
                     <span className="freelance__button">View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
@@ -21,28 +21,35 @@ const Freelance = () => {
                             <i className="uil uil-times freelance__modal-close"></i>
 
                             <h3 className="freelance__modal-title"></h3>
-                            <p className="freelance__modal-description">Freelance services and collaborations with more than 2 years of experiennce.</p>
+                            <p className="freelance__modal-description">Freelance services and collaborations with more than 3 years of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Deep learning and AI development
+                                        Deep learning and AI
                                     </p>
                                 </li>
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Frontend development
+                                        Advanced computer vision
                                     </p>
                                 </li>
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Backend development
+                                        Conventional data science 
+                                    </p>
+                                </li>
+
+                                <li className="freelance__modal-freelance">
+                                    <i className="uil uil-check-circle freelance__modal-icon"></i>
+                                    <p className="freelance__modal-info">
+                                        MLOps
                                     </p>
                                 </li>
 
@@ -64,28 +71,28 @@ const Freelance = () => {
                             <i className="uil uil-times freelance__modal-close"></i>
 
                             <h3 className="freelance__modal-title"></h3>
-                            <p className="freelance__modal-description">Freelance services and collaborations with more than 2 years of experiennce.</p>
+                            <p className="freelance__modal-description">Freelance services and collaborations with more than 1 year of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Deep learning and AI development
+                                        Responsive web design
+                                    </p>
+                                </li>
+
+                                <li className="freelance__modal-freelance">
+                                    <i className="uil uil-check-circle freelance__modal-icon"></i>
+                                    <p className="freelance__modal-info">                                
+                                        UI development and integration
                                     </p>
                                 </li>
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Frontend development
-                                    </p>
-                                </li>
-
-                                <li className="freelance__modal-freelance">
-                                    <i className="uil uil-check-circle freelance__modal-icon"></i>
-                                    <p className="freelance__modal-info">
-                                        Backend development
+                                        UX element interactions
                                     </p>
                                 </li>
 
@@ -107,28 +114,28 @@ const Freelance = () => {
                             <i className="uil uil-times freelance__modal-close"></i>
 
                             <h3 className="freelance__modal-title"></h3>
-                            <p className="freelance__modal-description">Freelance services and collaborations with more than 2 years of experiennce.</p>
+                            <p className="freelance__modal-description">Freelance services and collaborations with more than 1 year of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
-                                    <p className="freelance__modal-info">
-                                        Deep learning and AI development
+                                    <p className="freelance__modal-info">                              
+                                        Server-side application development
                                     </p>
                                 </li>
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Frontend development
+                                        Performance optimization and scaling
                                     </p>
                                 </li>
 
                                 <li className="freelance__modal-freelance">
                                     <i className="uil uil-check-circle freelance__modal-icon"></i>
                                     <p className="freelance__modal-info">
-                                        Backend development
+                                        Database design and optimization
                                     </p>
                                 </li>
 
