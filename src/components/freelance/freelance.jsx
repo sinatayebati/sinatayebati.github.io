@@ -10,7 +10,7 @@ const Freelance = () => {
 
                 <div className="freelance__content">
                     <div>
-                        <i className="uil uil-web-grid freelance__icon"></i>
+                        <i className="uil uil-brain freelance__icon"></i>
                         <h3 className="freelance__title">AI <br /> Developer</h3>
                     </div>
 
@@ -103,7 +103,7 @@ const Freelance = () => {
 
                 <div className="freelance__content">
                     <div>
-                        <i className="uil uil-edit freelance__icon"></i>
+                        <i className="uil uil-server freelance__icon"></i>
                         <h3 className="freelance__title">Backend <br /> Developer</h3>
                     </div>
 
