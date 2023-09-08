@@ -1,4 +1,5 @@
 import React from "react";
+import "./freelance.css";
 
 const Freelance = () => {
     return (
@@ -6,7 +7,7 @@ const Freelance = () => {
             <h2 className="section__title">Freelancing</h2>
             <span className="section__subtitle">What I offer</span>
 
-            <div className="frelance__container container grid">
+            <div className="freelance__container container grid">
 
                 <div className="freelance__content">
                     <div>
