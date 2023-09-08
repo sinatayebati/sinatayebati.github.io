@@ -33,6 +33,15 @@
     cursor: pointer;
 }
 
+.freelance__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.freelance__button:hover .freelance__button-icon {
+    transform: translateX(00.25rem);
+}
+
 .freelance__modal {
     display: none;
 }
