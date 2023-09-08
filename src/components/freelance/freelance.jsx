@@ -10,7 +10,7 @@ const Freelance = () => {
 
                 <div className="freelance__content">
                     <div>
-                        <i className="uil uil freelance__icon"></i>
+                        <i className="uil uil-web-grid freelance__icon"></i>
                         <h3 className="freelance__title">AI <br /> Developer</h3>
                     </div>
 
@@ -20,7 +20,7 @@ const Freelance = () => {
                         <div className="freelance__modal-content">
                             <i className="uil uil-times freelance__modal-close"></i>
 
-                            <h3 className="freelance__modal-title"></h3>
+                            <h3 className="freelance__modal-title">AI developer</h3>
                             <p className="freelance__modal-description">Freelance services and collaborations with more than 3 years of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
@@ -60,7 +60,7 @@ const Freelance = () => {
 
                 <div className="freelance__content">
                     <div>
-                        <i className="uil uil freelance__icon"></i>
+                        <i className="uil uil-arrow freelance__icon"></i>
                         <h3 className="freelance__title">Frontend <br /> Developer</h3>
                     </div>
 
@@ -70,7 +70,7 @@ const Freelance = () => {
                         <div className="freelance__modal-content">
                             <i className="uil uil-times freelance__modal-close"></i>
 
-                            <h3 className="freelance__modal-title"></h3>
+                            <h3 className="freelance__modal-title">Frontend developer</h3>
                             <p className="freelance__modal-description">Freelance services and collaborations with more than 1 year of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
@@ -103,7 +103,7 @@ const Freelance = () => {
 
                 <div className="freelance__content">
                     <div>
-                        <i className="uil uil freelance__icon"></i>
+                        <i className="uil uil-edit freelance__icon"></i>
                         <h3 className="freelance__title">Backend <br /> Developer</h3>
                     </div>
 
@@ -113,7 +113,7 @@ const Freelance = () => {
                         <div className="freelance__modal-content">
                             <i className="uil uil-times freelance__modal-close"></i>
 
-                            <h3 className="freelance__modal-title"></h3>
+                            <h3 className="freelance__modal-title">Backend developer</h3>
                             <p className="freelance__modal-description">Freelance services and collaborations with more than 1 year of experiennce.</p>
 
                             <ul className="freelance__modal-freelance grid">
