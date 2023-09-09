@@ -64,4 +64,25 @@
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.freelance__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.freelance__modal-title,
+.freelance__modal-description {
+    text-align: center;
+}
+
+.freelance__modal-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
 }
