@@ -24,7 +24,7 @@ const Freelance = () => {
                     <span className="freelance__button" onClick={() =>
                     toggleTab(1)}>View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
 
-                    <div className={toggleState === 1 ? "freelance__modal active-modal active-modal" : "freelance__modal"}>
+                    <div className={toggleState === 1 ? "freelance__modal active-modal" : "freelance__modal"}>
                         <div className="freelance__modal-content">
                             <i className="uil uil-times freelance__modal-close"></i>
 
