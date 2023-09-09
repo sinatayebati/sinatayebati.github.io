@@ -26,7 +26,7 @@ const Freelance = () => {
 
                     <div className={toggleState === 1 ? "freelance__modal active-modal" : "freelance__modal"}>
                         <div className="freelance__modal-content">
-                            <i className="uil uil-times freelance__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times freelance__modal-close"></i>
 
                             <h3 className="freelance__modal-title">AI developer</h3>
                             <p className="freelance__modal-description">Freelance services and collaborations with more than 3 years of experiennce.</p>
