@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./freelance.css";
 
 const Freelance = () => {
+        const [toggleState, setToggleState] = useState(0);
+
+        const toggleTab = (index) => {
+            setToggleState(index);
+        }
+
     return (
         <section className="freelance section" id="freelance">
             <h2 className="section__title">Freelancing</h2>
@@ -15,7 +21,8 @@ const Freelance = () => {
                         <h3 className="freelance__title">AI <br /> Developer</h3>
                     </div>
 
-                    <span className="freelance__button">View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
+                    <span className="freelance__button" onClick={() =>
+                    toggleTab(1)}>View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
 
                     <div className="freelance__modal">
                         <div className="freelance__modal-content">
