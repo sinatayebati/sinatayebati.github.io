@@ -134,7 +134,7 @@
   /* For medium devices */
   @media screen and (max-width: 768px) {
     .freelance__container {
-        grid-template-columns: repeat(2, 250px);
+        grid-template-columns: repeat(2, 260px);
     }
 
     .freelance__content {
@@ -147,10 +147,26 @@
   }
   
   @media screen and (max-width: 576px) {
+    .freelance__container {
+        grid-template-columns: repeat(2, 200px);
+    }
 
+    .freelance__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .freelance__modal-description {
+        padding: 0;
+    }
   }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .freelance__container {
+        grid-template-columns: max-content;
+    }
 
+    .freelance__content {
+        padding-right: 6rem;
+    }
   }

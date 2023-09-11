@@ -63,7 +63,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
     .skills__container {
-        grid-template-columns: repeat(2, 290px);
+        grid-template-columns: repeat(2, 280px);
         column-gap: 20px;
     }
 }
