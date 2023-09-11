@@ -72,11 +72,12 @@ const Freelance = () => {
                         <h3 className="freelance__title">Frontend <br /> Developer</h3>
                     </div>
 
-                    <span className="freelance__button">View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
+                    <span onClick={() => toggleTab(2)} className="freelance__button">
+                        View More <i className="uil uil-arrow-right freelance__button-icon"></i></span>
 
-                    <div className="freelance__modal">
+                    <div className={toggleState === 2 ? "freelance__modal active-modal" : "freelance__modal"}>
                         <div className="freelance__modal-content">
-                            <i className="uil uil-times freelance__modal-close"></i>
+                            <i onClick={() => toggleTab(0)} className="uil uil-times freelance__modal-close"></i>
 
                             <h3 className="freelance__modal-title">Frontend developer</h3>
                             <p className="freelance__modal-description">Freelance services and collaborations with more than 1 year of experiennce.</p>
