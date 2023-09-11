@@ -118,3 +118,31 @@
     opacity: 1;
     visibility: visible;
 }
+
+/*===== BREAKPOINTS =====*/
+/* For large devices */
+@media screen and (max-width: 1200px) {
+
+  }
+  
+  @media screen and (max-width: 992px) {
+    .freelance__container {
+        grid-template-columns: repeat(3, 240px);
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .freelance__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
