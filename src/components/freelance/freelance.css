@@ -60,10 +60,10 @@
 }
 
 .freelance__modal-content {
-    width: 500px;
+    width: 380px;
     position: relative;
     background-color: var(--container-color);
-    padding: 4.5rem 2.5rem 2.5rem;
+    padding: 2.5rem 2.5rem 2rem;
     border-radius: 1.5rem;
 }
 
@@ -94,11 +94,12 @@
 }
 
 .freelance__modal-freelance {
-    row-gap: 0.75rem;
+    row-gap: 0.5rem;
 }
 
 .freelance__modal-freelance {
-    display: flex;
+    /* display: grid; */
+    display: grid;
     align-items: center;
     column-gap: 0.5rem;
 }
