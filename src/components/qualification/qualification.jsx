@@ -20,15 +20,42 @@ const Qualification = () => {
 
                 <div className="qualification__sections">
                     <div className="qualification__content">
+
                         <div className="quailification__data">
                             <div>
-                                <h3 className="qualification__title"></h3>
-                                <span className="qualification__subtitle"></span>
+                                <h3 className="qualification__title">
+                                    PhD Electrical and Computer Engineering
+                                </h3>
+                                <span className="qualification__subtitle">
+                                    University of Illinois at Chicago
+                                </span>
                                 <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2020 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        
+                        <div className="quailification__data">
+                            <div></div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>                           
+                            <div>
+                                <h3 className="qualification__title"></h3>
+                                <span className="qualification__subtitle">
+                                    University of Illinois at Chicago
+                                </span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i> 2023 - Present
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
