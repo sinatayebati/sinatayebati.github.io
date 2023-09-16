@@ -71,3 +71,11 @@
     background-color: var(--text-color);
     border-radius: 50%;
 }
+
+.qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
