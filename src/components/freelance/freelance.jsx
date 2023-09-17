@@ -11,7 +11,7 @@ const Freelance = () => {
     return (
         <section className="freelance section" id="freelance">
             <h2 className="section__title">Freelancing</h2>
-            <span className="section__subtitle">What I offer</span>
+            <span className="section__subtitle">What I Offer</span>
 
             <div className="freelance__container container grid">
 
