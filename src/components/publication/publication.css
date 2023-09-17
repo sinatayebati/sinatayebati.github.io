@@ -23,3 +23,7 @@
 .publication__link:hover {
     color: var(--title-color-dark);
 }
+
+.publication__title {
+    color: var(--title-color);
+}
