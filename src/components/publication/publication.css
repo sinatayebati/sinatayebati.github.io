@@ -3,14 +3,23 @@
     justify-content: center;
 }
 
-
 .publication__content {
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 1rem 2rem; /* Adjust the padding to control the gap between publication blocks */
+}
+
+.publication {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1.5rem; /* Add padding to create a gap between publication blocks */
+    margin-bottom: 1rem; /* Add margin to separate publication blocks vertically */
 }
 
 .publication__link {
     color: var(--title-color);
+}
+
+.publication__link:hover {
+    color: var(--title-color-dark);
 }
