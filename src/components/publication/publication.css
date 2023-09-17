@@ -1,0 +1,16 @@
+.publication__container {
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+}
+
+
+.publication__content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.publication__link {
+    color: var(--title-color);
+}
