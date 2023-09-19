@@ -36,3 +36,18 @@ export const projectsData = [
         catergory: 'web'
     },
 ];
+
+export const projectsNav = [
+    {
+        name: all,
+    },
+    {
+        name: web,
+    },
+    {
+        name: app,
+    },
+    {
+        name: design,
+    },
+];
