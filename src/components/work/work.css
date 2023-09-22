@@ -15,6 +15,11 @@
     text-transform: capitalize;
 }
 
+.work__item:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+}
+
 .work__container {
     grid-template-columns: repeat(2, max-content);
     gap: 3rem;

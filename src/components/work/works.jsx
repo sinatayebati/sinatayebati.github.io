@@ -1,13 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import { projectsData } from "./data";
 import { projectsNav } from "./data";
 import WorkItems from "./workitems";
 
 const Works = () => {
+    const [item, setItem] = useState({ name: 'all' });
+    const [projects, setProjects] = useState([]);
+    const [active, setActive] = useState(0);
     return (
         <div>
             <div className="work__filters">
-                {projectsNav.map((item, index) => {
+                {projectsNav.map((item, index) => { 
                 return (
                     <span className="work__item" key={index}>
                         {item.name}
