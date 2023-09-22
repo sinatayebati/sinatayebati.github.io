@@ -14,9 +14,9 @@ const Publication = () => {
                             STARNet: Sensor Trustworthiness and Anomaly Recognition via Approximated Likelihood Regret for Robust Edge Autonomy
                         </div>
                         <div className="publication__authors">
-                            Darabi N, Tayebati T, Sureshkumar S, Ravi S, Tulabandhula T, Trivedi A.R
+                            Darabi N, Tayebati S, Sureshkumar S, Ravi S, Tulabandhula T, Trivedi A.R
                         </div>
-                        <a href="#" className="publication__link" target="_blank">
+                        <a href="https://arxiv.org/abs/2309.11006" className="publication__link" target="_blank">
                             Download
                         </a> 
                     </div>
@@ -26,7 +26,7 @@ const Publication = () => {
                             A Hybrid Machine Learning Framework for Clad Characteristics Prediction in Metal Additive Manufacturing
                         </div>
                         <div className="publication__authors">
-                            S Tayebati, KT Cho - arXiv preprint arXiv:2307.01872, 2023 - arxiv.org
+                            Tayebati S, Cho KT
                         </div>
                         <a href="https://arxiv.org/abs/2307.01872" className="publication__link" target="_blank">
                             Download
