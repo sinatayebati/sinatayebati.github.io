@@ -18,6 +18,19 @@
 
 .publication__link {
     color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
+}
+
+.publication__button-icon {
+    font-size: 1rem;
+    transition: 0.4s;
+}
+
+.publication__link:hover .publication__button-icon {
+    transform: translateX(0.25rem);
 }
 
 .publication__link:hover {
@@ -26,4 +39,10 @@
 
 .publication__title {
     color: var(--title-color);
+}
+
+.publication__authors {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    font-weight: var(--font-normal);
 }

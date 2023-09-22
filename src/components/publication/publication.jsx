@@ -17,7 +17,7 @@ const Publication = () => {
                             Darabi N, Tayebati S, Sureshkumar S, Ravi S, Tulabandhula T, Trivedi A.R
                         </div>
                         <a href="https://arxiv.org/abs/2309.11006" className="publication__link" target="_blank">
-                            Download
+                            Download <i className="bx bx-right-arrow-alt publication__button-icon"></i>
                         </a> 
                     </div>
 
@@ -29,7 +29,7 @@ const Publication = () => {
                             Tayebati S, Cho KT
                         </div>
                         <a href="https://arxiv.org/abs/2307.01872" className="publication__link" target="_blank">
-                            Download
+                            Download <i className="bx bx-right-arrow-alt publication__button-icon"></i>
                         </a> 
                     </div>
                 </div>
