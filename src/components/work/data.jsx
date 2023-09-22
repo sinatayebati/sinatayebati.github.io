@@ -29,12 +29,6 @@ export const projectsData = [
         title: 'Backend movil',
         catergory: 'backend'
     },
-    {
-        id: 5,
-        image: Work5,
-        title: 'Web movil',
-        catergory: 'web'
-    },
 ];
 
 export const projectsNav = [
