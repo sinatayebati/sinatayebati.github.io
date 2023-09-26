@@ -14,13 +14,28 @@ const Works = () => {
         if(item.name === "all"){
             setProjects(projectsData);
         }
-    })
+
+        else {
+            const newProjects = projectsData.filter((project) => {
+                return project.catergory === item.name;
+            });
+            setProjects(newProjects);
+        }
+    }, [item]);
+
+    const handleClick = (e, index) => {
+        setItem({ name: e.target.textContent });
+    };
     return (
         <div>
             <div className="work__filters">
                 {projectsNav.map((item, index) => { 
                 return (
-                    <span className="work__item" key={index}>
+                    <span 
+                    onClick={(e) => {
+                        handleClick(e, index);
+                    }} 
+                    className="work__item" key={index}>
                         {item.name}
                     </span>
                 )
