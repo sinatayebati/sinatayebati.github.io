@@ -35,8 +35,10 @@ const Works = () => {
                     onClick={(e) => {
                         handleClick(e, index);
                     }} 
-                    className="work__item" key={index}>
-                        {item.name}
+                    className={`${active === index ? 'active-work' : ''} work__item`}
+                    key={index}
+                    >
+                    {item.name}
                     </span>
                 )
                 })}

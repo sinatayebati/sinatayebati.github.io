@@ -13,19 +13,25 @@ export const projectsData = [
     },
     {
         id: 2,
-        image: Work2,
-        title: 'Web design',
-        catergory: 'web'
+        image: Work4,
+        title: 'Deep Learning',
+        catergory: 'AI'
     },
     {
         id: 3,
-        image: Work3,
-        title: 'Ecommerce UI',
-        catergory: 'web'
+        image: Work2,
+        title: 'Web Design',
+        catergory: 'frontend'
     },
     {
         id: 4,
-        image: Work4,
+        image: Work5,
+        title: 'Ecommerce UI',
+        catergory: 'frontend'
+    },
+    {
+        id: 5,
+        image: Work3,
         title: 'Backend movil',
         catergory: 'backend'
     },
@@ -39,9 +45,9 @@ export const projectsNav = [
         name: 'AI',
     },
     {
-        name: 'web',
+        name: 'frontend',
     },
     {
-        name: 'design',
+        name: 'backend',
     },
 ];
