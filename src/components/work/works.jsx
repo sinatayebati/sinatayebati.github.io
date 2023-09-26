@@ -25,6 +25,7 @@ const Works = () => {
 
     const handleClick = (e, index) => {
         setItem({ name: e.target.textContent });
+        setActive(index);
     };
     return (
         <div>
