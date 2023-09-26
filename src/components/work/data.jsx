@@ -8,7 +8,7 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'AI design',
+        title: 'Artificial Inteligence',
         catergory: 'AI'
     },
     {
@@ -20,8 +20,8 @@ export const projectsData = [
     {
         id: 3,
         image: Work3,
-        title: 'Backend design',
-        catergory: 'backend'
+        title: 'Ecommerce UI',
+        catergory: 'web'
     },
     {
         id: 4,
@@ -33,13 +33,13 @@ export const projectsData = [
 
 export const projectsNav = [
     {
+        name: 'all',
+    },
+    {
         name: 'AI',
     },
     {
         name: 'web',
-    },
-    {
-        name: 'backend',
     },
     {
         name: 'design',
