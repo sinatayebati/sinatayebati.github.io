@@ -9,31 +9,36 @@ export const projectsData = [
         id: 1,
         image: Work1,
         title: 'Artificial Inteligence',
-        catergory: 'AI'
+        catergory: 'AI',
+        demoLink: 'https://github.com/sinatayebati/STARNet'
     },
     {
         id: 2,
         image: Work4,
         title: 'Deep Learning',
-        catergory: 'AI'
+        catergory: 'AI',
+        demoLink: 'https://github.com/sinatayebati/deep-probabilistic-modeling'
     },
     {
         id: 3,
         image: Work2,
         title: 'Web Design',
-        catergory: 'frontend'
+        catergory: 'frontend',
+        demoLink: 'https://github.com/sinatayebati/ecommerce-website-clothing'
     },
     {
         id: 4,
         image: Work5,
         title: 'Ecommerce UI',
-        catergory: 'frontend'
+        catergory: 'frontend',
+        demoLink: 'https://github.com/sinatayebati/responsive-ecommerce-wesbite'
     },
     {
         id: 5,
         image: Work3,
         title: 'Backend movil',
-        catergory: 'backend'
+        catergory: 'backend',
+        demoLink: ''
     },
 ];
 
