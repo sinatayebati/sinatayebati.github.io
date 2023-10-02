@@ -53,7 +53,7 @@ const Contact = () => {
                 <div className="contact__content">
                     <h3 className="contact__title">Write me your project!</h3>
 
-                    <form action="#" className="contact__form">
+                    <form action="https://formspree.io/f/xvonjndr" method="POST" className="contact__form">
                         <div className="contact__form-div">
                             <label htmlFor="#" className="contact__form-tag">Name</label>
                             <input
@@ -85,7 +85,7 @@ const Contact = () => {
                             ></textarea>
                         </div>
                         
-                        <button className="button button--flex">
+                        <button type="submit" className="button button--flex">
                             Send Message
                             <svg
                             class="button__icon"
