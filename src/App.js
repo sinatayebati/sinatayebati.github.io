@@ -8,6 +8,7 @@ import Freelance from './components/freelance/freelance';
 import Qualification from './components/qualification/qualification';
 import Publication from './components/publication/publication';
 import Work from './components/work/work';
+import Contact from './components/contact/contact';
 
 const App = () => {
     return (
@@ -22,6 +23,7 @@ const App = () => {
             <Publication />
             <Freelance />
             <Work />
+            <Contact />
         </main>
         </>
     )
