@@ -26,17 +26,17 @@ export const projectsData = [
         catergory: 'frontend',
         demoLink: 'https://github.com/sinatayebati/ecommerce-website-clothing'
     },
-    {
+    /**{
         id: 4,
         image: Work5,
         title: 'Ecommerce UI',
         catergory: 'frontend',
         demoLink: 'https://github.com/sinatayebati/responsive-ecommerce-wesbite'
-    },
+    },**/
     {
-        id: 5,
+        id: 4,
         image: Work3,
-        title: 'Backend movil',
+        title: 'Backend',
         catergory: 'backend',
         demoLink: ''
     },
