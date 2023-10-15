@@ -159,6 +159,20 @@
         padding: 0;
     }
   }
+
+  @media screen and (max-width: 435px) {
+    .freelance__container {
+        grid-template-columns: repeat(2, 150px);
+    }
+
+    .freelance__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .freelance__modal-description {
+        padding: 0;
+    }
+  }
   
   /* For small devices */
   @media screen and (max-width: 350px) {
