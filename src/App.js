@@ -9,6 +9,7 @@ import Qualification from './components/qualification/qualification';
 import Publication from './components/publication/publication';
 import Work from './components/work/work';
 import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 const App = () => {
     return (
@@ -24,6 +25,7 @@ const App = () => {
             <Freelance />
             <Work />
             <Contact />
+            <Footer />
         </main>
         </>
     )
