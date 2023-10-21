@@ -10,6 +10,7 @@ import Publication from './components/publication/publication';
 import Work from './components/work/work';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
+import ScrollUp from './components/scrollup/scrollup';
 
 const App = () => {
     return (
@@ -25,8 +26,10 @@ const App = () => {
             <Freelance />
             <Work />
             <Contact />
-            <Footer />
         </main>
+
+        <Footer />
+        <ScrollUp />
         </>
     )
 }
