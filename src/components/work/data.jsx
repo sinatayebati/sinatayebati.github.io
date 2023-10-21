@@ -36,9 +36,9 @@ export const projectsData = [
     {
         id: 4,
         image: Work3,
-        title: 'Backend',
+        title: 'Full-stack',
         catergory: 'backend',
-        demoLink: ''
+        demoLink: 'https://github.com/sinatayebati/finance-dashboard-MERN'
     },
 ];
 
