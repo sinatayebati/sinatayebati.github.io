@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "12b943eb4a345821ed05",
-    "url": "/static/css/main.d4a8533c.chunk.css"
+    "revision": "c91b5ea38feed11591b9",
+    "url": "/static/css/main.b37be000.chunk.css"
   },
   {
-    "revision": "12b943eb4a345821ed05",
-    "url": "/static/js/main.12b943eb.chunk.js"
+    "revision": "c91b5ea38feed11591b9",
+    "url": "/static/js/main.c91b5ea3.chunk.js"
   },
   {
-    "revision": "cf042e081f8a87233510",
-    "url": "/static/js/1.cf042e08.chunk.js"
+    "revision": "e8e3b76c5bf759905946",
+    "url": "/static/js/1.e8e3b76c.chunk.js"
   },
   {
-    "revision": "4d1cc93c4006485f3f44",
-    "url": "/static/js/2.4d1cc93c.chunk.js"
+    "revision": "8c754ac35514d032e50a",
+    "url": "/static/js/2.8c754ac3.chunk.js"
   },
   {
-    "revision": "69133d183c995e1d60fc",
-    "url": "/static/js/runtime~main.69133d18.js"
+    "revision": "316baba7ca5f9e773de3",
+    "url": "/static/js/runtime~main.316baba7.js"
   },
   {
     "revision": "b1b86b80fa1a9684a6f970fe024a49f2",
     "url": "/static/media/about2.b1b86b80.png"
+  },
+  {
+    "revision": "4b45f788d1f894eb4308e28fcb66f429",
+    "url": "/static/media/Sina_Tayebati_CV.4b45f788.pdf"
   },
   {
     "revision": "6c10396ec79f867c972503d4ccbf94f6",
@@ -48,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/work5.ead21acd.png"
   },
   {
-    "revision": "a1df3a9da9962af0f965bec7ff0a2593",
+    "revision": "9ecedf8d5be41f39ed3203a7ff056554",
     "url": "/index.html"
   }
 ];
