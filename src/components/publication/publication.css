@@ -1,50 +1,69 @@
+.publications {
+    background-color: var(--container-color);
+    padding: 2rem 0;
+}
+
 .publication__container {
-    grid-template-columns: repeat(1, max-content);
-    justify-content: center;
+    max-width: 768px;
+    margin: 0 auto;
 }
 
 .publication__content {
-    position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-    background-color: var(--container-color);
-    padding: 2rem 2rem 1rem 2rem; /* Adjust the padding to control the gap between publication blocks */
+    display: grid;
+    gap: 2rem;
 }
 
 .publication {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 1.5rem; /* Add padding to create a gap between publication blocks */
-    margin-bottom: 1rem; /* Add margin to separate publication blocks vertically */
+    background-color: var(--body-color);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.publication:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.publication__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.75rem;
+    color: var(--title-color);
+}
+
+.publication__authors {
+    font-size: var(--small-font-size);
+    color: var(--text-color);
+    margin-bottom: 1rem;
 }
 
 .publication__link {
+    display: inline-flex;
+    align-items: center;
     color: var(--title-color);
     font-size: var(--small-font-size);
-    display: flex;
-    align-items: center;
-    column-gap: 0.25rem;
-}
-
-.publication__button-icon {
-    font-size: 1rem;
-    transition: 0.4s;
-}
-
-.publication__link:hover .publication__button-icon {
-    transform: translateX(0.25rem);
+    font-weight: var(--font-medium);
+    transition: color 0.3s ease;
 }
 
 .publication__link:hover {
     color: var(--title-color-dark);
 }
 
-.publication__title {
-    color: var(--title-color);
+.publication__button-icon {
+    font-size: 1rem;
+    margin-left: 0.25rem;
+    transition: transform 0.3s ease;
 }
 
-.publication__authors {
-    color: var(--text-color);
-    font-size: var(--small-font-size);
-    font-weight: var(--font-normal);
+.publication__link:hover .publication__button-icon {
+    transform: translateX(0.25rem);
+}
+
+@media screen and (max-width: 576px) {
+    .publication__container {
+        padding: 0 1rem;
+    }
 }

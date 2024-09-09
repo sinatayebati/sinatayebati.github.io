@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Info from "./info";
 import AboutImg from "../../assets/about2.png";
-// import CV from "../../assets/resume.pdf";
+import CV from "../../assets/Sina_Tayebati_CV.pdf";
 
 const About = () => {
     return (
@@ -23,7 +23,7 @@ const About = () => {
                     Oh, and I'm a cat lover too!
                     </p>
 
-                    <a download="" href="#" className="button button--flex">
+                    <a download="Sina_Tayebati_CV.pdf" href={CV} className="button button--flex">
                         Download CV
                         <svg
                             class="button__icon"
